@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Protractor Demo App" timestamp="2016-08-26T00:17:17" hostname="localhost" time="31.538" errors="0" tests="8" skipped="0" failures="1">
+  <testcase classname="Protractor Demo App" name="should check about me link" time="15.389">
+  </testcase>
+  <testcase classname="Protractor Demo App" name="should check resources link" time="1.97">
+  </testcase>
+  <testcase classname="Protractor Demo App" name="should check resume link" time="3.009">
+  </testcase>
+  <testcase classname="Protractor Demo App" name="should check contact link" time="2.229">
+  </testcase>
+  <testcase classname="Protractor Demo App" name="should check text fields is empty &amp; button is disabled" time="2.079">
+  </testcase>
+  <testcase classname="Protractor Demo App" name="should check button" time="2.644">
+  </testcase>
+  <testcase classname="Protractor Demo App" name="should check alert" time="2.925">
+  </testcase>
+  <testcase classname="Protractor Demo App" name="should checl collapase" time="1.279">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, .collapsible-header)"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, .collapsible-header)
+    at WebDriverError (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:27:10)
+    at NoSuchElementError (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:242:10)
+    at C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\built\element.js:705:27
+    at ManagedPromise.invokeCallback_ (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1379:14)
+    at TaskQueue.execute_ (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2913:14)
+    at TaskQueue.executeNext_ (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2896:21)
+    at C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2775:27
+    at C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:639:7
+    at process._tickCallback (node.js:369:9)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\built\element.js:395:27)
+    at ElementArrayFinder._this.(anonymous function) [as click] (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\built\element.js:97:30)
+    at ElementFinder._this.(anonymous function) [as click] (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\built\element.js:728:22)
+    at Object.<anonymous> (C:\Users\Anil\Desktop\resume\Test\E2E\contact.spec.js:75:12)
+    at C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:96:23
+    at new ManagedPromise (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1082:7)
+    at controlFlowExecute (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:82:18)
+    at TaskQueue.execute_ (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2913:14)
+    at TaskQueue.executeNext_ (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2896:21)
+    at C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2820:25
+From: Task: Run it("should checl collapase") in control flow
+    at Object.<anonymous> (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:81:14)
+    at attemptAsync (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+    at C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1842:9
+    at C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:18:5
+    at ManagedPromise.invokeCallback_ (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1379:14)
+    at TaskQueue.execute_ (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2913:14)
+    at TaskQueue.executeNext_ (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2896:21)
+    at C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2775:27
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Anil\Desktop\resume\Test\E2E\contact.spec.js:72:5)
+    at addSpecsToSuite (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at jasmineInterface.describe (C:\Users\Anil\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.<anonymous> (C:\Users\Anil\Desktop\resume\Test\E2E\contact.spec.js:3:1)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,45 @@
+<html>
+<head>
+    <script src="angular.min.js"></script>
+    <script src="directive.js"></script>
+    <script src="directivevalidator.js"></script>
+    <script src="bootstrap.css"></script>
+    <script src="jquery-3.0.0.js"></script>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body ng-app="myApp">
+
+<directive-url-test><input type="button" name="submit" id="submit" value="submit"></directive-url-test>
+<directivenav>
+    <directivepanel title="First tab">
+        {{title}}
+        <p>Welcome to tab 1 </p>
+    </directivepanel>
+<directivepanel title="Second tab">
+    {{title}}
+    <p>Welcome to tab 2</p>
+
+</directivepanel>
+
+
+</directivenav>
+<div ng-controller="validatorcontroller">
+<form name="form" >
+        <input type="text" name="text1" ng-model="text1" directivenumbervalidator><span ng-show="form.text1.$error.number">Wrong Validator</span><br/>
+    <input type="text"  name="text2" ng-model="text2" directivetextvalidator><span ng-show="form.text2.$error.text">Wrong Validator| Length sould be more than 5</span><br/>
+
+</form>
+</div>
+
+</body>
+
+
+</html>
